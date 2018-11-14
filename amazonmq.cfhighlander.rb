@@ -19,6 +19,8 @@ CfhighlanderTemplate do
       ComponentParam "SubnetPersistence#{az}"
     end
 
+    ComponentParam 'DnsDomain'
+
   end
 
   LambdaFunctions 'ssm_custom_resources'
